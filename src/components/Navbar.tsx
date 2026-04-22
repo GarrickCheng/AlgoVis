@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, GitGraph, Cpu, Network } from "lucide-react";
+import { BarChart3, GitGraph, Cpu, Network, BookOpen } from "lucide-react";
 
 const navLinks = [
   { href: "/sorting",     label: "Sorting",     icon: BarChart3,  activeClass: "border-cyan-400 text-cyan-400" },
   { href: "/pathfinding", label: "Pathfinding", icon: GitGraph,   activeClass: "border-purple-400 text-purple-400" },
   { href: "/graphs",      label: "Graphs",      icon: Network,    activeClass: "border-emerald-400 text-emerald-400" },
+  { href: "/learn",       label: "Learn",       icon: BookOpen,   activeClass: "border-amber-400 text-amber-400" },
 ];
 
 export default function Navbar() {

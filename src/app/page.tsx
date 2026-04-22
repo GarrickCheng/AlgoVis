@@ -284,6 +284,7 @@ export default function HomePage() {
             <Link href="/sorting" className="hover:text-cyan-400 transition-colors">Sorting</Link>
             <Link href="/pathfinding" className="hover:text-purple-400 transition-colors">Pathfinding</Link>
             <Link href="/graphs" className="hover:text-emerald-400 transition-colors">Graphs</Link>
+            <Link href="/learn" className="hover:text-amber-400 transition-colors">Learn</Link>
           </div>
         </div>
       </footer>
